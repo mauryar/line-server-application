@@ -72,7 +72,7 @@ public class MainController {
 	 * @return
 	 * @throws IOException
 	 */
-	private static String getLineNumber(long lineNumber) throws IOException {
+	public synchronized static String getLineNumber(long lineNumber) throws IOException {
 		// Retrieve line
 		if (lineNumber <= 0) {
 			return MyAppConstants.ERROR;
