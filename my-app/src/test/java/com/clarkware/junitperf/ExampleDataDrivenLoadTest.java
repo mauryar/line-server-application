@@ -27,6 +27,7 @@ import com.clarkware.junitperf.*;
  */
 
 public class ExampleDataDrivenLoadTest extends TestCase {
+	/*
 
 	private static final int CONCURRENT_USERS = 100000;
 	private static Iterator testDataIterator;
@@ -77,4 +78,5 @@ public class ExampleDataDrivenLoadTest extends TestCase {
 		//System.out.println(op);
 		logger.info(op);
 	}
+	*/
 }

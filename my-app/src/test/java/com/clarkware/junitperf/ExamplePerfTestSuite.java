@@ -21,7 +21,7 @@ public class ExamplePerfTestSuite {
 
 		suite.addTest(ExampleTimedTest.suite());
 		suite.addTest(ExampleLoadTest.suite());
-		suite.addTest(ExampleDataDrivenLoadTest.suite());
+	//	suite.addTest(ExampleDataDrivenLoadTest.suite());
 
 		// Add more performance tests here.
 
